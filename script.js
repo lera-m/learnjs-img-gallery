@@ -16,4 +16,13 @@ for (i = 0; i < images.length; i++) {
 
 		preImg.src = src;
 	});
+	var ImageCnt = 0;
+
+    function nextImg(){
+	   ImageCnt++;
+       document.getElementById("preImg").innerHTML = image[ImageCnt];
+    }; 
 }
+
+
+   
